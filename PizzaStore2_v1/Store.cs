@@ -14,8 +14,10 @@ namespace PizzaStore2_v1
             MenuCatalog menu = new MenuCatalog();
 
             System.Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            
             menu.Start();          
-            menu.PrintUserMenu();
+            menu.PrintUserMenu();            
             Console.ReadKey();
         }
     }
